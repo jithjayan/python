@@ -50,10 +50,27 @@
 # print(not(10==10))
 # print(not(10==1))
 
-print('l' in 'lion')
-print('l' in 'jazz')
-print('l' not in 'igloo')
-print('l' not in 'tiger')
+# print('l' in 'lion')
+# print('l' in 'jazz')
+# print('l' not in 'igloo')
+# print('l' not in 'tiger')
+
+a=10
+b=10
+print(id(a))
+print(id(b))
+print(a==b)
+print(a is b)
+print(a is not b)
+
+l=[10,20,30]
+l1=[10,20,30]
+print(id(l))
+print(id(l1))
+print(l==l1)
+print(l is l1)
+print(l is not l1)
+
 
 
 
