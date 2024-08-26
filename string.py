@@ -30,8 +30,8 @@ a="Welcome"
 # print(c.lstrip())
 # print(c.rstrip())
 
-print("{:11}{:7}{:7}".format("Name","Age","Mark"))
-print("{:11}{:7}{:7}".format("Sonu","22","44"))
-print("{:11}{:7}{:7}".format("monu","22","40"))
+# print("{:11}{:7}{:7}".format("Name","Age","Mark"))
+# print("{:11}{:7}{:7}".format("Sonu","22","44"))
+# print("{:11}{:7}{:7}".format("monu","22","40"))
 
 
