@@ -29,13 +29,13 @@
 # s.clear()
 # print(s)
 
-s={1,2,3,4,5,11,22,12}
-s1={1,2,3,4,5,6}
+# s={1,2,3,4,5,11,22,12}
+# s1={1,2,3,4,5,6}
 # s2={6,7,8}
 # print(s1.difference(s))
 # print(s.union(s1))
 # print(s.intersection(s1))
-print(s.symmetric_difference(s1))
+# print(s.symmetric_difference(s1))
 # print(s.isdisjoint(s2))
 # print(s1.issubset(s))
 # print(s1.issuperset(s))

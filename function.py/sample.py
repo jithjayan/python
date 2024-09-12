@@ -86,3 +86,24 @@
 #     print("name",name)
 #     print("age",age)
 # sample(age=20,name='awu')    
+
+
+# def sample(name='aqw',age=20):
+#     print(name,age)
+# sample("awi")
+# sample("sawq",22)
+# sample()
+
+
+# def sample(*a):
+#     print(a)
+# sample()
+# sample('hello','world')
+# sample('hello','world',11.12)
+
+
+# def sample(**a):
+#     print(a)
+# sample()
+# sample(name='aqw',age=20)
+# sample(name='aqw',age=20,ph=111111)
