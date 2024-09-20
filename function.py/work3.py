@@ -36,14 +36,18 @@ def add_book():
         id=1001
     else:
         id=lib[-1]['id']+1
-    f=0
-    for i in lib:
         
         bname=str(input("Enter the book name"))
         price=int(input("enter the price"))
         stock=int(input("Enter the stock"))
         lib.append({'id':id,'bname':bname,'price':price,'stock':stock})
-
+def view_book():
+    print('BOOK DETAILS')
+    print("{:<5}{:<10}{:<10}{:<10}".format('ID','BOOKNAME','PRICE','STOCK'))
+    print('_'*30)
+    for i in lib:
+        print("{:<5}{:<10}{:<10}{:<10}".format(i['id'],i['name'],i['price'],i['stock']))
+        
 while True:
     print('''
           1.registration
@@ -66,6 +70,8 @@ while True:
                 num=int(input("enter your choice"))
                 if num==1:
                     add_book()
+                elif num==2:
+                    view_book()
         elif f==2:
             print("user login")
         elif f==0:
