@@ -1,31 +1,31 @@
-print("hi ")
-print("hello")
-name_='Aromal'
-roll_no=7
-weight=52.99 
+# print("hi ")
+# print("hello")
+# name_='Aromal'
+# roll_no=7
+# weight=52.99 
 
-print('string',name_)
-print('roll_no',roll_no)
-print('float',weight,'kg')
-a=5+2j
-print('complex',a)
-c=True
-b=False
-print('boolean',c,b)
-name=['sagar','Alias','jacky']
-print('list',name)
-names=('sagar','Alias','jacky')
-print('tuple',names)
-n={'sagar','Alias','jacky'}
-print('set',n)
-nm={'name':'sagar'}
-print('dictionary',nm)
-print(type(name_))
-print(type(roll_no))
-print(type(weight))
-print(type(a))
-print(type(c),type(b))
-print(type(name))
-print(type(names))
-print(type(n))
-print(type(nm))
+# print('string',name_)
+# print('roll_no',roll_no)
+# print('float',weight,'kg')
+# a=5+2j
+# print('complex',a)
+# c=True
+# b=False
+# print('boolean',c,b)
+# name=['sagar','Alias','jacky']
+# print('list',name)
+# names=('sagar','Alias','jacky')
+# print('tuple',names)
+# n={'sagar','Alias','jacky'}
+# print('set',n)
+# nm={'name':'sagar'}
+# print('dictionary',nm)
+# print(type(name_))
+# print(type(roll_no))
+# print(type(weight))
+# print(type(a))
+# print(type(c),type(b))
+# print(type(name))
+# print(type(names))
+# print(type(n))
+# print(type(nm))

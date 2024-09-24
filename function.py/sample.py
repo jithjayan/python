@@ -107,3 +107,14 @@
 # sample()
 # sample(name='aqw',age=20)
 # sample(name='aqw',age=20,ph=111111)
+
+
+
+'''map'''
+
+l=[1,2,3,4,5]
+# print(list(map(lambda x:x*2,l)))
+
+def num(x):
+    return x+2
+print(list(map(num,l)))
