@@ -72,3 +72,63 @@
 # harley.exam()
 # harley.result()
 # harley.notes()  
+
+# class syn:
+#     def python(self):
+#         print('python')
+#     def php(self):
+#         print('php')
+# class nonteaching_staff(syn):
+#     def admission(self):
+#         print('adm')
+# class teaching_staff(syn):
+#     def python_cor(self):
+#         print('python cor')
+# staff1=nonteaching_staff()
+# staff2=teaching_staff()
+# staff1.python()
+# staff1.admission()5
+# staff2.python_cor()   
+
+# class syn:
+#     def python(self):
+#         print('python')
+#     def php(self):
+#         print('php')
+# class nonteaching_staff(syn):
+#     def admission(self):
+#         print('adm')
+# class teaching_staff(syn):
+#     def python_cor(self):
+#         print('python cor')
+# class std(teaching_staff):
+#     def notes(self):
+#         print('notes')
+# staff1=nonteaching_staff()
+# staff2=teaching_staff()
+# std1=std()
+# staff1.python()
+# staff2.python_cor()
+# std1.notes()
+
+class lib:
+    def reading(self):
+        print('readings')
+class admin(lib):
+    def adm(self):
+        print('adm')
+class book(admin):
+    def novel(self):
+        print('novel')
+    def comic(self):
+        print('comic')
+class newspaper(admin):
+    def news(self):
+        print('news')
+class user(book,newspaper):
+    def user(self):
+        print('user')
+user1=user()
+user1.reading()
+
+
