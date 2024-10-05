@@ -39,6 +39,9 @@ import re
 # print(re.search('c.+',a)) 
 
 # a='abcd'
+# a='abcd'
+# print(re.search('a.+',a)) 
+
 # print(re.search('d.+',a)) 
 
 # a='abcd'
@@ -91,3 +94,24 @@ import re
 
 # a='abcd'
 # print(re.search('[abcd].?',a)) 
+
+
+# a='abcd'
+# print(re.search('[a-z].*[0-9]',a)) 
+
+
+# a='abcd1'
+# print(re.search('[a-z].*[0-9]',a))
+
+
+# a='abcd13435'
+# print(re.search('[a-z].*[0-9]',a)) 
+
+# a='abcd'
+# print(re.search('[a-z].{3}',a)) 
+
+# a='abcyjd'
+# print(re.search('[a-z].{4}',a)) 
+
+a='abcdDD34@#'
+print(re.search('[a-z].*[0-9]',a)) 
