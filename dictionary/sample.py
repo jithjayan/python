@@ -35,7 +35,7 @@
 # print(d)
 
 
-dt=[{'name':'a','age':20},{'name':'b','age':50},{'name':'c','age':34},{'name':'d','age':45},{'name':'e','age':22},{'name':'f','age':37}]
+# dt=[{'name':'a','age':20},{'name':'b','age':50},{'name':'c','age':34},{'name':'d','age':45},{'name':'e','age':22},{'name':'f','age':37}]
 # for i in dt:
 #     print(i['age'])
 
